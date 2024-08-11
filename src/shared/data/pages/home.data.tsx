@@ -28,7 +28,7 @@ import {
   TeamProps,
   TestimonialsProps,
 } from '../../types';
-import heroImg from '~/assets/images/hero.jpg';
+import heroImg from '~/assets/images/hero.png';
 import nextJsLogo from '~/assets/images/nextjs-logo.png';
 import reactLogo from '~/assets/images/react-logo.png';
 import tailwindCssLogo from '~/assets/images/tailwind-css-logo.png';
@@ -41,32 +41,31 @@ import gasImg from '~/assets/images/gas.jpg';
 export const heroHome: HeroProps = {
   title: (
     <>
-      Free template for <span className="hidden md:inline">starts a website using</span> <span>Next.js</span> +{' '}
-      <span className="sm:whitespace-nowrap">Tailwind CSS</span>
+      全国高端外围
+      {/* <span className="sm:whitespace-nowrap">Tailwind CSS</span> */}
     </>
   ),
   subtitle: (
     <>
-      <span className="hidden md:inline">
-        <span className="font-semibold underline decoration-primary-600 decoration-wavy decoration-1 underline-offset-2">
-          TailNext
-        </span>{' '}
-        is a production ready template to start your new website using <em>Next.js</em> + <em>Tailwind CSS</em>.
-      </span>{' '}
-      It has been designed following Best Practices, SEO, Accessibility, Dark Mode, great Page Speed, image
-      optimization.
+      <span className="">
+        <span className="font-semibold decoration-wavy decoration-1 underline-offset-2">
+          全国高端外围模特高端商务外围模特高端伴游,
+        </span>
+        我们是一家专业商务模特及外围模特服务提供商，服务覆盖北京、上海、广州、深圳和香港。我们的模特团队不仅外貌出众，还具备良好的沟通能力和商务素养。无论是商务陪同、私人约会还是其他场合，我们都能提供合适的人选。选择我们，您将获得专业、可靠的服务，确保模特与您的品牌形象完美匹配。
+      </span>
+
     </>
   ),
-  callToAction: {
-    text: 'Get template',
-    href: 'https://github.com/onwidget/tailnext',
-    icon: IconDownload,
-    targetBlank: true,
-  },
-  callToAction2: {
-    text: 'Learn more',
-    href: '/',
-  },
+  // callToAction: {
+  //   text: 'Get template',
+  //   href: 'https://github.com/onwidget/tailnext',
+  //   icon: IconDownload,
+  //   targetBlank: true,
+  // },
+  // callToAction2: {
+  //   text: 'Learn more',
+  //   href: '/',
+  // },
   image: {
     src: heroImg,
     alt: 'Hero TailNext',
@@ -109,74 +108,61 @@ export const featuresHome: FeaturesProps = {
   header: {
     title: (
       <>
-        What you get with <span className="whitespace-nowrap">TailNext</span>
+       <span className="whitespace-nowrap">外围工作室</span>
       </>
     ),
-    subtitle:
-      "Elevating Your Digital Presence: Discover the Synergies Unleashed in Our Platform's Core Strengths, from Seamless Integration to Open Collaboration.",
-    tagline: 'Features',
-  },
+    },
   items: [
     {
-      title: 'Next.Js + Tailwind CSS Integration',
+      title: '高端外围',
       description:
-        'A seamless integration between two great frameworks that offer high productivity, performance and versatility.',
-      icon: IconBrandTailwind,
-      callToAction: {
-        text: 'Discover now',
-        href: '/',
-      },
-    },
-    {
-      title: 'Ready-to-use Components',
-      description:
-        'Widgets made with Tailwind CSS ready to be used in Marketing Websites, SaaS, Blogs, Personal Profiles, Small Business...',
-      icon: IconComponents,
-      callToAction: {
-        text: 'Discover now',
-        href: '/',
-      },
-    },
-    {
-      title: 'Best Practices',
-      description:
-        'By prioritizing maintainability and scalability through coding standards and design principles, your website stays robust and efficient.',
-      icon: IconListCheck,
-      callToAction: {
-        text: 'Discover now',
-        href: '/',
-      },
-    },
-    {
-      title: 'Excellent Page Speed',
-      description:
-        'Having a good page speed impacts organic search ranking, improves user experience (UI/UX) and increase conversion rates.',
+        '主要提供上海、广州、深圳、北京、武汉、南京、天津、成都、重庆、福州、厦门、杭州、宁波、温州、天津、郑州、西安、太原、大连、青岛等全国各省会城市及直辖市。',
       icon: IconRocket,
-      callToAction: {
-        text: 'Discover now',
-        href: '/',
-      },
+
     },
     {
-      title: 'Search Engine Optimization (SEO)',
+      title: '中端外围',
       description:
-        "Boost online visibility with our SEO-friendly website. Effective strategies and practices enhance your website's search engine ranking, making it easier for users to find your content.",
-      icon: IconArrowsRightLeft,
-      callToAction: {
-        text: 'Discover now',
-        href: '/',
-      },
+        '主要提供上海，广州，深圳，北京，南京， 东莞，惠州，长沙，武汉，成都， 贵阳，常州，重庆，西安，珠海， 南宁，佛山，海口，无锡，苏州， 三亚，桂林，杭州，郑州，茂名， 昆明，柳州，厦门等城市，各城市价格均有所不同。',
+      icon: IconRocket,
+
     },
     {
-      title: 'Open to new ideas and contributions',
+      title: '国外高端',
       description:
-        'We welcome new ideas and contributions to our platform. Whether you have feature suggestions, want to contribute code, or share insights, our platform is open for collaboration.',
-      icon: IconBulb,
-      callToAction: {
-        text: 'Discover now',
-        href: '/',
-      },
+        '目前提供多伦多，旧金山，伦敦，新加坡。香港。澳门等地区。 价格港澳5000￥起其他城市具体咨询',
+      icon: IconRocket,
     },
+    // {
+    //   title: 'Excellent Page Speed',
+    //   description:
+    //     'Having a good page speed impacts organic search ranking, improves user experience (UI/UX) and increase conversion rates.',
+    //   icon: IconRocket,
+    //   callToAction: {
+    //     text: 'Discover now',
+    //     href: '/',
+    //   },
+    // },
+    // {
+    //   title: 'Search Engine Optimization (SEO)',
+    //   description:
+    //     "Boost online visibility with our SEO-friendly website. Effective strategies and practices enhance your website's search engine ranking, making it easier for users to find your content.",
+    //   icon: IconArrowsRightLeft,
+    //   callToAction: {
+    //     text: 'Discover now',
+    //     href: '/',
+    //   },
+    // },
+    // {
+    //   title: 'Open to new ideas and contributions',
+    //   description:
+    //     'We welcome new ideas and contributions to our platform. Whether you have feature suggestions, want to contribute code, or share insights, our platform is open for collaboration.',
+    //   icon: IconBulb,
+    //   callToAction: {
+    //     text: 'Discover now',
+    //     href: '/',
+    //   },
+    // },
   ],
 };
 
@@ -261,29 +247,41 @@ export const stepsHome: StepsProps = {
     alt: 'Steps image',
   },
   header: {
-    title: 'Sed ac magna sit amet risus tristique interdum.',
+    title: '服务流程',
   },
   items: [
     {
-      title: 'Step 1',
+      title: '第一步',
       description:
-        'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi sagittis, quam nec venenatis lobortis, mirisus tempus nulla, sed porttitor est nibh at nulla. Praesent placerat enim ut ex tincidunt vehicula. Fusce sit amet dui tellus.',
+        '客服发送今天上班女孩资料',
       icon: IconArrowDown,
     },
     {
-      title: 'Step 2',
+      title: '第二步',
       description:
-        'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi sagittis, quam nec venenatis lobortis, mirisus tempus nulla, sed porttitor est nibh at nulla.',
+        '选好人后找客服确定时间，确定上门还是去女孩工作室',
       icon: IconArrowDown,
     },
     {
-      title: 'Step 3',
+      title: '第三步',
       description:
-        'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi sagittis, quam nec venenatis lobortis, mirisus tempus nulla, sed porttitor est nibh at nulla.',
+        '客人（女孩）准时到约定好的地址',
       icon: IconArrowDown,
     },
     {
-      title: 'Ready!',
+      title: '第四步',
+      description:
+        '给出房间号去女孩工作室（下楼接女孩到客人开好酒店的房间）',
+      icon: IconArrowDown,
+    },
+    {
+      title: '第五步',
+      description:
+        '见到女孩后觉得满意就付款给她，然后女孩开工',
+      icon: IconArrowDown,
+    },
+    {
+      title: '不满意可换可退!',
     },
   ],
 };
