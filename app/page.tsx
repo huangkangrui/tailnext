@@ -27,6 +27,7 @@ import {
   teamHome,
   testimonialsHome,
 } from '~/shared/data/pages/home.data';
+import Previews from '~/components/widgets/Preivew';
 
 export const metadata: Metadata = {
   title: SITE.title,
@@ -36,17 +37,18 @@ export default function Page() {
   return (
     <>
       <Hero {...heroHome} />
-      <SocialProof {...socialProofHome} />
       <Features {...featuresHome} />
-      <Content {...contentHomeOne} />
-      <Content {...contentHomeTwo} />
+      <Previews {...testimonialsHome} />
       <Steps {...stepsHome} />
-      <Testimonials {...testimonialsHome} />
-      <FAQs2 {...faqs2Home} />
-      <Pricing {...pricingHome} />
-      <Team {...teamHome} />
-      <Contact {...contactHome} />
-      <CallToAction2 {...callToAction2Home} />
+      {/* <SocialProof {...socialProofHome} /> */}
+      {/* <Content {...contentHomeOne} /> */}
+      {/* <Content {...contentHomeTwo} /> */}
+      {/* <Testimonials {...testimonialsHome} /> */}
+      {/* <FAQs2 {...faqs2Home} /> */}
+      {/* <Pricing {...pricingHome} /> */}
+      {/* <Team {...teamHome} /> */}
+      {/* <Contact {...contactHome} /> */}
+      {/* <CallToAction2 {...callToAction2Home} /> */}
     </>
   );
 }
